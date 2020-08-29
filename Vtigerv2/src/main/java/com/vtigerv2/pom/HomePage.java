@@ -13,18 +13,52 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Sign Out']")
 	private WebElement SignoutBtn;
 	
-	public HomePage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
-		
+	@FindBy(xpath="//td[6]/a[contains(text(),'Organizations')]")
+	private WebElement OrganizationBtn;
+	
+	@FindBy(xpath="//select[@id='qccombo']")
+	private WebElement QuickCreateListbox;
+	
+	@FindBy(xpath="//td[12]/a[contains(text(),'Products')]")
+	private WebElement ProductsBtn;
+	
+	@FindBy(xpath="//td[22]/a[contains(text(),'More')]")
+	private WebElement MoreDropDown;
+	
+	@FindBy(xpath="//a[@name='Quotes']")
+	private WebElement QuoteLink;
+	
+	public WebElement getQuoteLink() {
+		return QuoteLink;
 	}
 
+	public WebElement getMoreDropDown() {
+		return MoreDropDown;
+	}
 
-	public WebElement getAccountsDropdown() {
+	public WebElement getProductsBtn() {
+		return ProductsBtn;
+	}
+
+	public WebElement getQuickCreateListbox() {
+		return QuickCreateListbox;
+	}
+
+	public HomePage(WebDriver driver) 
+	{
+		PageFactory.initElements(driver, this);	
+	}
+
+	public WebElement getAccountsDropdown() 
+	{
 		return AccountsDropdown;
 	}
-
-	public WebElement getSignoutBtn() {
+	public WebElement getSignoutBtn() 
+	{
 		return SignoutBtn;
+	}
+	public WebElement getOrganizationBtn() {
+		return OrganizationBtn;
 	}
 
 }

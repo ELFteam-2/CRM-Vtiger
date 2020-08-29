@@ -1,39 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Opening Browser]]>
     </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[Organization page displayed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on export org button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on cancel button]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-18T14:29:32 IST" name="Default suite" finished-at="2020-08-18T14:29:49 IST" duration-ms="17045">
+  <suite name="Default suite" duration-ms="238742" started-at="2020-08-29T08:49:15Z" finished-at="2020-08-29T08:53:14Z">
     <groups>
     </groups>
-    <test started-at="2020-08-18T14:29:32 IST" name="Default test" finished-at="2020-08-18T14:29:49 IST" duration-ms="17045">
-      <class name="com.vtigerv2.testcripts.CreateCampaign">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:32 IST" name="openBrowser" finished-at="2020-08-18T14:29:39 IST" duration-ms="6730" status="PASS">
+    <test name="Default test" duration-ms="238742" started-at="2020-08-29T08:49:15Z" finished-at="2020-08-29T08:53:14Z">
+      <class name="com.vtigerv2.testcripts.ExportOrganizations">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="openBrowser" is-config="true" duration-ms="47555" started-at="2020-08-29T08:49:16Z" finished-at="2020-08-29T08:50:03Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:39 IST" name="login" finished-at="2020-08-18T14:29:46 IST" duration-ms="6821" status="PASS">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="login" is-config="true" duration-ms="44517" started-at="2020-08-29T08:50:03Z" finished-at="2020-08-29T08:50:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testCreateCampaign()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:46 IST" name="testCreateCampaign" finished-at="2020-08-18T14:29:46 IST" duration-ms="29" status="PASS">
+        <test-method status="PASS" signature="testExportOrganizations()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="testExportOrganizations" duration-ms="102442" started-at="2020-08-29T08:50:48Z" finished-at="2020-08-29T08:52:30Z">
           <reporter-output>
+            <line>
+              <![CDATA[Organization page displayed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on export org button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on cancel button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testCreateCampaign -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:46 IST" name="logout" finished-at="2020-08-18T14:29:47 IST" duration-ms="1284" status="PASS">
+        </test-method> <!-- testExportOrganizations -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="logout" is-config="true" duration-ms="9866" started-at="2020-08-29T08:52:30Z" finished-at="2020-08-29T08:52:40Z">
           <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:47 IST" name="closeBrowser" finished-at="2020-08-18T14:29:49 IST" duration-ms="2145" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="closeBrowser" is-config="true" duration-ms="34170" started-at="2020-08-29T08:52:40Z" finished-at="2020-08-29T08:53:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtigerv2.testcripts.CreateCampaign -->
+      </class> <!-- com.vtigerv2.testcripts.ExportOrganizations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

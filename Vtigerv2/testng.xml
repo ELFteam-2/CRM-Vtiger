@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtigerv2.testcripts.CreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.CreateQuote"/>
+      <class name="com.vtigerv2.testcripts.CancelOrg"/>
+      <class name="com.vtigerv2.testcripts.FindDuplicateProduct"/>
+      <class name="com.vtigerv2.testcripts.DeleteProduct"/>
+      <class name="com.vtigerv2.testcripts.QuoteExportToPdf"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateProduct"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterOrganization"/>
+      <class name="com.vtigerv2.testcripts.DeleteOrganization"/>
+      <class name="com.vtigerv2.testcripts.ExportOrganizations"/>
+      <class name="com.vtigerv2.testcripts.EditQuote"/>
+      <class name="com.vtigerv2.testcripts.CancelQuotes"/>
+      <class name="com.vtigerv2.testcripts.ExportProducts"/>
+      <class name="com.vtigerv2.testcripts.SearchOrganization"/>
+      <class name="com.vtigerv2.testcripts.MassEditProducts"/>
+      <class name="com.vtigerv2.testcripts.CancelProduct"/>
+      <class name="com.vtigerv2.testcripts.FindDuplicateOrg"/>
+      <class name="com.vtigerv2.testcripts.MassEditQuote"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateOrg"/>
+      <class name="com.vtigerv2.testcripts.WorldClock"/>
+      <class name="com.vtigerv2.testcripts.CreateOrganization"/>
+      <class name="com.vtigerv2.testcripts.DeleteQuote"/>
+      <class name="com.vtigerv2.testcripts.EditOrganization"/>
+      <class name="com.vtigerv2.testcripts.EditProduct"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterProducts"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteQuotes"/>
+      <class name="com.vtigerv2.testcripts.SearchQuotes"/>
+      <class name="com.vtigerv2.testcripts.OrgMailerExport"/>
+      <class name="com.vtigerv2.testcripts.SearchProduct"/>
+      <class name="com.vtigerv2.testcripts.Chat"/>
+      <class name="com.vtigerv2.testcripts.MassEditOrganization"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteOrg"/>
+      <class name="com.vtigerv2.testcripts.LastViewedOrg"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterQuotes"/>
+      <class name="com.vtigerv2.testcripts.CreateProdut"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteProducts"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
