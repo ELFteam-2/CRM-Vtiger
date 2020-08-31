@@ -1,6 +1,6 @@
-url http://localhost:8899/
+url http://localhost:8888/
 usn admin
-pwd admin
+pwd manager
 browser chrome
 
 

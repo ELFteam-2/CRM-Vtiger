@@ -1,39 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="30" failed="0" total="35" passed="5">
   <reporter-output>
     <line>
       <![CDATA[Opening Browser]]>
     </line>
+    <line>
+      <![CDATA[create a contact]]>
+    </line>
+    <line>
+      <![CDATA[create a contact]]>
+    </line>
+    <line>
+      <![CDATA[edit a conatact]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-18T14:29:32 IST" name="Default suite" finished-at="2020-08-18T14:29:49 IST" duration-ms="17045">
+  <suite name="Suite" duration-ms="303342" started-at="2020-08-31T05:19:46Z" finished-at="2020-08-31T05:24:50Z">
     <groups>
     </groups>
-    <test started-at="2020-08-18T14:29:32 IST" name="Default test" finished-at="2020-08-18T14:29:49 IST" duration-ms="17045">
-      <class name="com.vtigerv2.testcripts.CreateCampaign">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:32 IST" name="openBrowser" finished-at="2020-08-18T14:29:39 IST" duration-ms="6730" status="PASS">
+    <test name="Test" duration-ms="303342" started-at="2020-08-31T05:19:46Z" finished-at="2020-08-31T05:24:50Z">
+      <class name="com.vtigerv2.testcripts.importnextcancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.importnextcancel@589838eb]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importnextCancel()[pri:0, instance:com.vtigerv2.testcripts.importnextcancel@589838eb]" name="importnextCancel" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importnextCancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.importnextcancel@589838eb]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.importnextcancel -->
+      <class name="com.vtigerv2.testcripts.moreinfoleads_cancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.moreinfoleads_cancel@402a079c]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="cancel()[pri:0, instance:com.vtigerv2.testcripts.moreinfoleads_cancel@402a079c]" name="cancel" duration-ms="7" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.moreinfoleads_cancel@402a079c]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.moreinfoleads_cancel -->
+      <class name="com.vtigerv2.testcripts.Importservices">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Importservices@14bf9759]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importServices()[pri:0, instance:com.vtigerv2.testcripts.Importservices@14bf9759]" name="importServices" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importServices -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Importservices@14bf9759]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Importservices -->
+      <class name="com.vtigerv2.testcripts.Exportservice">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Exportservice@5f341870]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="exportServices()[pri:0, instance:com.vtigerv2.testcripts.Exportservice@5f341870]" name="exportServices" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportServices -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Exportservice@5f341870]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Exportservice -->
+      <class name="com.vtigerv2.testcripts.moreinfoinvoice">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice@553f17c]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="invoice()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice@553f17c]" name="invoice" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoice -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice@553f17c]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.moreinfoinvoice -->
+      <class name="com.vtigerv2.testcripts.Servicemassedit">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Servicemassedit@598067a5]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="serviceMassedit()[pri:0, instance:com.vtigerv2.testcripts.Servicemassedit@598067a5]" name="serviceMassedit" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceMassedit -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Servicemassedit@598067a5]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Servicemassedit -->
+      <class name="com.vtigerv2.testcripts.Duplicatecontact">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Duplicatecontact@42e26948]" name="login" is-config="true" duration-ms="9109" started-at="2020-08-31T10:52:45Z" finished-at="2020-08-31T10:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="duplicatetest()[pri:0, instance:com.vtigerv2.testcripts.Duplicatecontact@42e26948]" name="duplicatetest" duration-ms="15596" started-at="2020-08-31T10:52:54Z" finished-at="2020-08-31T10:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicatetest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Duplicatecontact@42e26948]" name="logout" is-config="true" duration-ms="3585" started-at="2020-08-31T10:53:10Z" finished-at="2020-08-31T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Duplicatecontact -->
+      <class name="com.vtigerv2.testcripts.Moreinformation">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Moreinformation@271053e1]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="moreInformation()[pri:0, instance:com.vtigerv2.testcripts.Moreinformation@271053e1]" name="moreInformation" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreInformation -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Moreinformation@271053e1]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Moreinformation -->
+      <class name="com.vtigerv2.testcripts.Searchoppertunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Searchoppertunity@6eebc39e]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="searchOpertunity()[pri:0, instance:com.vtigerv2.testcripts.Searchoppertunity@6eebc39e]" name="searchOpertunity" duration-ms="1" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOpertunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Searchoppertunity@6eebc39e]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Searchoppertunity -->
+      <class name="com.vtigerv2.testcripts.DeleteLead">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.DeleteLead@204f30ec]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="deleteLead()[pri:0, instance:com.vtigerv2.testcripts.DeleteLead@204f30ec]" name="deleteLead" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.DeleteLead@204f30ec]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.DeleteLead -->
+      <class name="com.vtigerv2.testcripts.Exportcancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Exportcancel@57fffcd7]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="exportCancel()[pri:0, instance:com.vtigerv2.testcripts.Exportcancel@57fffcd7]" name="exportCancel" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportCancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Exportcancel@57fffcd7]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Exportcancel -->
+      <class name="com.vtigerv2.testcripts.Deletecontact">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Deletecontact@53b32d7]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:32Z" finished-at="2020-08-31T10:54:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='user_name']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.225.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79989b950d3091d6ed6c38c451f0a5bb
+*** Element info: {Using=xpath, value=//input[@name='user_name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='user_name']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.225.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79989b950d3091d6ed6c38c451f0a5bb
+*** Element info: {Using=xpath, value=//input[@name='user_name']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.vtigerv2.pom.LoginPage.loggingin(LoginPage.java:23)
+	at com.vtigerv2.generics.BaseClass.login(BaseClass.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="deleteContacttest()[pri:0, instance:com.vtigerv2.testcripts.Deletecontact@53b32d7]" name="deleteContacttest" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContacttest -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Deletecontact@53b32d7]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Deletecontact -->
+      <class name="com.vtigerv2.testcripts.EditLead">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.EditLead@1a968a59]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="editLead()[pri:0, instance:com.vtigerv2.testcripts.EditLead@1a968a59]" name="editLead" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.EditLead@1a968a59]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.EditLead -->
+      <class name="com.vtigerv2.testcripts.Createoppertunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Createoppertunity@e25b2fe]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="createOppurtunity()[pri:0, instance:com.vtigerv2.testcripts.Createoppertunity@e25b2fe]" name="createOppurtunity" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOppurtunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Createoppertunity@e25b2fe]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Createoppertunity -->
+      <class name="com.vtigerv2.testcripts.importcancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.importcancel@3c0ecd4b]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importCancel()[pri:0, instance:com.vtigerv2.testcripts.importcancel@3c0ecd4b]" name="importCancel" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importCancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.importcancel@3c0ecd4b]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.importcancel -->
+      <class name="com.vtigerv2.testcripts.Cancelcreatelead">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Cancelcreatelead@548e7350]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="cancelCreatelead()[pri:0, instance:com.vtigerv2.testcripts.Cancelcreatelead@548e7350]" name="cancelCreatelead" duration-ms="5" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCreatelead -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Cancelcreatelead@548e7350]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Cancelcreatelead -->
+      <class name="com.vtigerv2.testcripts.Importservicecancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Importservicecancel@6500df86]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importCancel()[pri:0, instance:com.vtigerv2.testcripts.Importservicecancel@6500df86]" name="importCancel" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importCancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Importservicecancel@6500df86]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Importservicecancel -->
+      <class name="com.vtigerv2.testcripts.Importcontact">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Importcontact@57baeedf]" name="login" is-config="true" duration-ms="10581" started-at="2020-08-31T10:53:13Z" finished-at="2020-08-31T10:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="importcontacttest()[pri:0, instance:com.vtigerv2.testcripts.Importcontact@57baeedf]" name="importcontacttest" duration-ms="38700" started-at="2020-08-31T10:53:24Z" finished-at="2020-08-31T10:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importcontacttest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Importcontact@57baeedf]" name="logout" is-config="true" duration-ms="2098" started-at="2020-08-31T10:54:03Z" finished-at="2020-08-31T10:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Importcontact -->
+      <class name="com.vtigerv2.testcripts.Importlead">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Importlead@77cd7a0]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importLead()[pri:0, instance:com.vtigerv2.testcripts.Importlead@77cd7a0]" name="importLead" duration-ms="1" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importLead -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Importlead@77cd7a0]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Importlead -->
+      <class name="com.vtigerv2.testcripts.Moreinfoleads">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Moreinfoleads@42dafa95]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="leads()[pri:0, instance:com.vtigerv2.testcripts.Moreinfoleads@42dafa95]" name="leads" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leads -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Moreinfoleads@42dafa95]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Moreinfoleads -->
+      <class name="com.vtigerv2.testcripts.Editoppertunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Editoppertunity@146ba0ac]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="editOppertunity()[pri:0, instance:com.vtigerv2.testcripts.Editoppertunity@146ba0ac]" name="editOppertunity" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOppertunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Editoppertunity@146ba0ac]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Editoppertunity -->
+      <class name="com.vtigerv2.testcripts.Editcontact">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Editcontact@1794d431]" name="login" is-config="true" duration-ms="11355" started-at="2020-08-31T10:51:36Z" finished-at="2020-08-31T10:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editcontacttest()[pri:0, instance:com.vtigerv2.testcripts.Editcontact@1794d431]" name="editcontacttest" duration-ms="53185" started-at="2020-08-31T10:51:48Z" finished-at="2020-08-31T10:52:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[create a contact]]>
+            </line>
+            <line>
+              <![CDATA[edit a conatact]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editcontacttest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Editcontact@1794d431]" name="logout" is-config="true" duration-ms="4066" started-at="2020-08-31T10:52:41Z" finished-at="2020-08-31T10:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Editcontact -->
+      <class name="com.vtigerv2.testcripts.Createmultiservices">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Createmultiservices@13deb50e]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="createMultiservices()[pri:0, instance:com.vtigerv2.testcripts.Createmultiservices@13deb50e]" name="createMultiservices" duration-ms="1" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultiservices -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Createmultiservices@13deb50e]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Createmultiservices -->
+      <class name="com.vtigerv2.testcripts.export">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.export@343f4d3d]" name="login" is-config="true" duration-ms="9013" started-at="2020-08-31T10:54:05Z" finished-at="2020-08-31T10:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="searchbuttontest()[pri:0, instance:com.vtigerv2.testcripts.export@343f4d3d]" name="searchbuttontest" duration-ms="14961" started-at="2020-08-31T10:54:14Z" finished-at="2020-08-31T10:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbuttontest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.export@343f4d3d]" name="logout" is-config="true" duration-ms="3679" started-at="2020-08-31T10:54:29Z" finished-at="2020-08-31T10:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.export -->
+      <class name="com.vtigerv2.testcripts.Createcontact">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.Createcontact@39c0f4a]" name="openBrowser" is-config="true" duration-ms="25489" started-at="2020-08-31T10:49:47Z" finished-at="2020-08-31T10:50:12Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:39 IST" name="login" finished-at="2020-08-18T14:29:46 IST" duration-ms="6821" status="PASS">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Createcontact@39c0f4a]" name="login" is-config="true" duration-ms="17992" started-at="2020-08-31T10:50:12Z" finished-at="2020-08-31T10:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testCreateCampaign()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:46 IST" name="testCreateCampaign" finished-at="2020-08-18T14:29:46 IST" duration-ms="29" status="PASS">
+        <test-method status="PASS" signature="createcontacttest()[pri:0, instance:com.vtigerv2.testcripts.Createcontact@39c0f4a]" name="createcontacttest" duration-ms="61104" started-at="2020-08-31T10:50:30Z" finished-at="2020-08-31T10:51:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[create a contact]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testCreateCampaign -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:46 IST" name="logout" finished-at="2020-08-18T14:29:47 IST" duration-ms="1284" status="PASS">
+        </test-method> <!-- createcontacttest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Createcontact@39c0f4a]" name="logout" is-config="true" duration-ms="5163" started-at="2020-08-31T10:51:31Z" finished-at="2020-08-31T10:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.CreateCampaign@159f197]" started-at="2020-08-18T14:29:47 IST" name="closeBrowser" finished-at="2020-08-18T14:29:49 IST" duration-ms="2145" status="PASS">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.Createcontact@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.vtigerv2.testcripts.CreateCampaign -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.vtigerv2.testcripts.Createcontact -->
+      <class name="com.vtigerv2.testcripts.Exportservicecancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Exportservicecancel@3abbfa04]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="exportService()[pri:0, instance:com.vtigerv2.testcripts.Exportservicecancel@3abbfa04]" name="exportService" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportService -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Exportservicecancel@3abbfa04]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Exportservicecancel -->
+      <class name="com.vtigerv2.testcripts.moreinfoinvoice_cancel">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice_cancel@4f7d0008]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="invoiceCancel()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice_cancel@4f7d0008]" name="invoiceCancel" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoiceCancel -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.moreinfoinvoice_cancel@4f7d0008]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.moreinfoinvoice_cancel -->
+      <class name="com.vtigerv2.testcripts.Deleteopurtunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Deleteopurtunity@464bee09]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="deleteOpurtunity()[pri:0, instance:com.vtigerv2.testcripts.Deleteopurtunity@464bee09]" name="deleteOpurtunity" duration-ms="1" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOpurtunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Deleteopurtunity@464bee09]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Deleteopurtunity -->
+      <class name="com.vtigerv2.testcripts.Createsrvice">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Createsrvice@f6c48ac]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="craeteService()[pri:0, instance:com.vtigerv2.testcripts.Createsrvice@f6c48ac]" name="craeteService" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- craeteService -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Createsrvice@f6c48ac]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Createsrvice -->
+      <class name="com.vtigerv2.testcripts.Editservices">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Editservices@239963d8]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="ediotServices()[pri:0, instance:com.vtigerv2.testcripts.Editservices@239963d8]" name="ediotServices" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ediotServices -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Editservices@239963d8]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Editservices -->
+      <class name="com.vtigerv2.testcripts.Exportopertunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Exportopertunity@754ba872]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="exportOppertunity()[pri:0, instance:com.vtigerv2.testcripts.Exportopertunity@754ba872]" name="exportOppertunity" duration-ms="1" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportOppertunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Exportopertunity@754ba872]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Exportopertunity -->
+      <class name="com.vtigerv2.testcripts.Cancelservicemassedit">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Cancelservicemassedit@31ef45e3]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="massedit()[pri:0, instance:com.vtigerv2.testcripts.Cancelservicemassedit@31ef45e3]" name="massedit" duration-ms="1" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- massedit -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Cancelservicemassedit@31ef45e3]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:50Z" finished-at="2020-08-31T10:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Cancelservicemassedit -->
+      <class name="com.vtigerv2.testcripts.importoppertunity">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.importoppertunity@4dfa3a9d]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="importOpertunity()[pri:0, instance:com.vtigerv2.testcripts.importoppertunity@4dfa3a9d]" name="importOpertunity" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importOpertunity -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.importoppertunity@4dfa3a9d]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.importoppertunity -->
+      <class name="com.vtigerv2.testcripts.Leadmassedit">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Leadmassedit@4667ae56]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="leadMassedit()[pri:0, instance:com.vtigerv2.testcripts.Leadmassedit@4667ae56]" name="leadMassedit" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadMassedit -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Leadmassedit@4667ae56]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Leadmassedit -->
+      <class name="com.vtigerv2.testcripts.Createlead">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.Createlead@5442a311]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="createLead()[pri:0, instance:com.vtigerv2.testcripts.Createlead@5442a311]" name="createLead" duration-ms="2" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.Createlead@5442a311]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T10:54:49Z" finished-at="2020-08-31T10:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.vtigerv2.testcripts.Createlead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

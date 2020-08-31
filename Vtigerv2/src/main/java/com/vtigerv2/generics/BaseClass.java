@@ -1,5 +1,6 @@
 package com.vtigerv2.generics;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -22,11 +23,10 @@ import com.vtigerv2.pom.LoginPage;
 public class BaseClass {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/driver/chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "./src/main/resources/driver/geckodriver.exe");
 		
 	}
 	public static WebDriver driver;
-	public FileLib f=new FileLib();
+	public FileLib  f=new FileLib();
 	
 	@BeforeTest
 	public void openBrowser() throws IOException {
@@ -62,7 +62,7 @@ public class BaseClass {
     l.loggingin(usn, pwd);
 	}
     
-    @AfterMethod
+   @AfterMethod
     public void logout() throws InterruptedException {
     	HomePage h=new HomePage(driver);
     	WebElement accDropdown = h.getAccountsDropdown();
