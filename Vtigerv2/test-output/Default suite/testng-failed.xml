@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   <test name="Default test(failed)">
@@ -9,7 +10,11 @@
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
   <test thread-count="5" name="Default test(failed)">
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+=======
+  <test name="Default test(failed)">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     <classes>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <class name="com.vtigerv2.testcripts.SearchDuplicateAndExport">
 =======
@@ -19,21 +24,32 @@
       <class name="com.vtigerv2.testcripts.CreateQuote">
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+=======
+      <class name="com.vtigerv2.testcripts.Importlead">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
         <methods>
           <include name="login"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <include name="testSearchDuplicateAndExport"/>
 =======
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+=======
+          <include name="importLead"/>
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <include name="logout"/>
           <include name="openBrowser"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <include name="testVendorMassEdit"/>
 =======
           <include name="testCreateQuote"/>
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <include name="closeBrowser"/>
+=======
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
         </methods>
+<<<<<<< HEAD
 <<<<<<< HEAD
       </class> <!-- com.vtigerv2.testcripts.SearchDuplicateAndExport -->
 =======
@@ -42,6 +58,9 @@
 =======
       </class> <!-- com.vtigerv2.testcripts.CreateQuote -->
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+=======
+      </class> <!-- com.vtigerv2.testcripts.Importlead -->
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Default test(failed) -->

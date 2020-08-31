@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<<<<<<< HEAD
   <test name="Test">
     <classes>
 <<<<<<< HEAD
@@ -123,4 +124,47 @@
 >>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Test -->
+=======
+	<test name="Test">
+		<classes>
+			<class name="com.vtigerv2.testcripts.Createcontact" />
+			<class name="com.vtigerv2.testcripts.Editcontact" />
+			<class name="com.vtigerv2.testcripts.Duplicatecontact" />
+			<class name="com.vtigerv2.testcripts.Importcontact" />
+			<class name="com.vtigerv2.testcripts.export" />
+			<class name="com.vtigerv2.testcripts.Deletecontact" />
+			<class name="com.vtigerv2.testcripts.Createlead" />
+			<class name="com.vtigerv2.testcripts.Cancelcreatelead" />
+			<class name="com.vtigerv2.testcripts.EditLead" />
+			<class name="com.vtigerv2.testcripts.Leadmassedit" />
+			<class name="com.vtigerv2.testcripts.Importlead" />
+			<class name="com.vtigerv2.testcripts.DeleteLead" />
+			<class name="com.vtigerv2.testcripts.Createoppertunity" />
+			<class name="com.vtigerv2.testcripts.Exportopertunity" />
+			<class name="com.vtigerv2.testcripts.Editoppertunity" />
+			<class name="com.vtigerv2.testcripts.importoppertunity" />
+			<class name="com.vtigerv2.testcripts.Searchoppertunity" />
+			<class name="com.vtigerv2.testcripts.Deleteopurtunity" />
+			<class name="com.vtigerv2.testcripts.Createsrvice" />
+			<class name="com.vtigerv2.testcripts.Createmultiservices" />
+			<class name="com.vtigerv2.testcripts.Editservices" />
+			<class name="com.vtigerv2.testcripts.Exportservicecancel" />
+			<class name="com.vtigerv2.testcripts.Exportcancel" />
+			<class name="com.vtigerv2.testcripts.Cancelservicemassedit" />
+			<class name="com.vtigerv2.testcripts.Servicemassedit" />
+			<class name="com.vtigerv2.testcripts.importcancel" />
+			<class name="com.vtigerv2.testcripts.export" />
+			<class name="com.vtigerv2.testcripts.Importservices" />
+			<class name="com.vtigerv2.testcripts.Exportservice" />
+			<class name="com.vtigerv2.testcripts.moreinfoinvoice" />
+			<class name="com.vtigerv2.testcripts.moreinfoinvoice_cancel" />
+			<class name="com.vtigerv2.testcripts.Moreinformation" />
+			<class name="com.vtigerv2.testcripts.importnextcancel" />
+			<class name="com.vtigerv2.testcripts.Moreinfoleads" />
+			<class name="com.vtigerv2.testcripts.Importservicecancel" />
+			<class name="com.vtigerv2.testcripts.moreinfoleads_cancel" />
+
+		</classes>
+	</test> <!-- Test -->
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
 </suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+package com.vtigerv2.testcripts;
+
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import com.vtigerv2.generics.BaseClass;
+import com.vtigerv2.pom.HomePage;
+import com.vtigerv2.pom.ServicePage;
+
+public class Editservices extends BaseClass
+{
+@Test
+public void ediotServices()
+{
+	HomePage h = new HomePage(driver);
+	Actions a = new Actions(driver);
+	a.moveToElement(h.getMorelink()).perform();
+	ServicePage s = new ServicePage(driver);
+	s.getServices().click();
+	s.getCheckbox().click();
+	s.getEdit().click();
+	
+	s.getServicename().sendKeys("delta");
+	s.getSave().click();
+	
+}
+	
+}

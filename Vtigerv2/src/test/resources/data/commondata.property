@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 url http://localhost:8888/index.php?action=index&module=Home
+=======
+url http://localhost:8888/
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
 usn admin
+<<<<<<< HEAD
 pwd admin
 browser firefox
+=======
+pwd manager
+browser chrome
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
 
 

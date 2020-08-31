@@ -7,12 +7,22 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
+
 	@FindBy(xpath="(//img[@border='0'])[3]")
 	private WebElement adminstratorimg;
+
+	public WebElement getHomebtn() {
+		return homebtn;
+	}
+
+	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
+	private WebElement AccountsDropdown;
+
 	
 	@FindBy(xpath="//a[text()='Sign Out']")
 	private WebElement signout;
 	
+
 
 	@FindBy(xpath="//a[text()='More']")
 	private WebElement Morelink;
@@ -160,8 +170,50 @@ public class HomePage {
 
 
 	public WebElement getMoredropdownlink() {
-		return moredropdownlink;
+		return moredropdownlink;}
+
+	@FindBy(xpath="//a[.='More']")
+	private WebElement morelink;
+	
+	@FindBy(xpath="//img[@src='themes/softed/images/Home.PNG']")
+	private WebElement homebtn;
+	
+	 public WebElement getMorelink() {
+		return morelink;
+
 	}
+
+	@FindBy(xpath="//a[.='Contacts']")
+	 private WebElement contactlink;
+	
+	 @FindBy(xpath="//a[.='Leads']")
+	 private WebElement Leads;
+	 
+	 public WebElement getLeads() {
+		return Leads;
+	}
+
+	@FindBy(xpath="//img[@title='Create Contact...']")
+	 private WebElement createcontact;
+	 
+	 @FindBy(xpath="(//a[.='Opportunities'])[1]")
+	 private WebElement createaoppurtunity;
+	 
+	public WebElement getCreateaoppurtunity() {
+		return createaoppurtunity;
+	}
+
+
+	public WebElement getCreatecontact() {
+		return createcontact;
+	}
+
+
+	public WebElement getContactlink() {
+		return contactlink;
+	}
+
+
 
 
 	
@@ -179,9 +231,6 @@ public class HomePage {
 		return signout;}
 
 	
-	public WebElement getMorelink() {
-		return Morelink;
-	}
 	public WebElement getInvoicelink() {
 		return Invoicelink;
 	}
@@ -213,4 +262,7 @@ public class HomePage {
 		return OrganizationBtn;
 	}
 
+
+
+	
 }
