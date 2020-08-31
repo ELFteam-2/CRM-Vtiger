@@ -48,23 +48,27 @@ public class BaseClass {
 	
 	@AfterTest
 	public void closeBrowser() throws InterruptedException {
-	Thread.sleep(2000);
-	driver.close();
+		Reporter.log("Closing Browser", true);
+		Thread.sleep(2000);
+		driver.close();
 	}
 	
 	@BeforeMethod
-	public void login() throws IOException, InterruptedException{
-	String url = f.getPropertyData("url");
-    String usn = f.getPropertyData("usn");
-    String pwd = f.getPropertyData("pwd");
-    driver.get(url);
-    LoginPage l= new LoginPage(driver);
-    l.loggingin(usn, pwd);
+	public void login() throws IOException, InterruptedException
+	{
+		Reporter.log("login", true);
+		String url = f.getPropertyData("url");
+		String usn = f.getPropertyData("usn");
+		String pwd = f.getPropertyData("pwd");
+		driver.get(url);
+		LoginPage l= new LoginPage(driver);
+		l.loggingin(usn, pwd);
 	}
     
     @AfterMethod
     public void logout() throws InterruptedException {
     	HomePage h= new HomePage(driver);
+    	Reporter.log("logout", true);
     	Actions a=new Actions(driver);
     	a.moveToElement(h.getAdminstratorimg()).perform();
         h.getSignout().click();

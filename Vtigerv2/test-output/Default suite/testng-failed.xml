@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <test name="Default test(failed)">
+=======
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
   <test thread-count="5" name="Default test(failed)">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     <classes>
+<<<<<<< HEAD
       <class name="com.vtigerv2.testcripts.SearchDuplicateAndExport">
+=======
+<<<<<<< HEAD
+      <class name="com.vtigerv2.testcripts.VendorMassEdit">
+=======
+      <class name="com.vtigerv2.testcripts.CreateQuote">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
         <methods>
           <include name="login"/>
+<<<<<<< HEAD
           <include name="testSearchDuplicateAndExport"/>
+=======
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <include name="logout"/>
           <include name="openBrowser"/>
+<<<<<<< HEAD
+          <include name="testVendorMassEdit"/>
+=======
+          <include name="testCreateQuote"/>
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <include name="closeBrowser"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.vtigerv2.testcripts.SearchDuplicateAndExport -->
+=======
+<<<<<<< HEAD
+      </class> <!-- com.vtigerv2.testcripts.VendorMassEdit -->
+=======
+      </class> <!-- com.vtigerv2.testcripts.CreateQuote -->
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

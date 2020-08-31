@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class NewCustomViewPage {
+
 	@FindBy(xpath="//input[@name='subject_mass_edit_check']")
 	private WebElement subjectCheckbox;
 	@FindBy(xpath="//input[@name='viewName']")
@@ -37,4 +38,29 @@ public class NewCustomViewPage {
 	public WebElement getSavebtn() {
 		return savebtn;
 	}
+
+	@FindBy(xpath="//input[@name='viewName']")
+	private WebElement viewnametbx;
+	
+	@FindBy(xpath="//input[@name='setDefault']")
+	private WebElement setasdefaultcheckbox;
+	
+	@FindBy(xpath="//input[@name='button2']")
+	private WebElement Savebtn2;
+	
+	public WebElement getSavebtn2() {
+		return Savebtn2;
+	}
+
+	
+
+	public WebElement getViewnametbx() {
+		return viewnametbx;
+	}
+
+	public WebElement getSetasdefaultcheckbox() {
+		return setasdefaultcheckbox;
+	}
+	
+
 }

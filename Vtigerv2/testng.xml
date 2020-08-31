@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
+<<<<<<< HEAD
       <class name="com.vtigerv2.testcripts.CreateInvoice"/>
       <class name="com.vtigerv2.testcripts.CreateInvoiceUsingServices"/>
       <class name="com.vtigerv2.testcripts.CreatePurchaseOrder"/>
@@ -44,6 +45,82 @@
       <class name="com.vtigerv2.testcripts.SearchSalesOrder"/>
       <class name="com.vtigerv2.testcripts.DeleteInvoice"/>
       <class name="com.vtigerv2.testcripts.MassDeletePurchaseOrder"/>
+=======
+<<<<<<< HEAD
+      <class name="com.vtigerv2.testcripts.EditVendorWithoutData"/>
+      <class name="com.vtigerv2.testcripts.SearchForVendor"/>
+      <class name="com.vtigerv2.testcripts.CreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.LastViewedCampaign"/>
+      <class name="com.vtigerv2.testcripts.CancelDeleteCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreSevices"/>
+      <class name="com.vtigerv2.testcripts.RestorePurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.RestoreVendor"/>
+      <class name="com.vtigerv2.testcripts.EditVendor"/>
+      <class name="com.vtigerv2.testcripts.CancelDeletingVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreProjectTasks"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateVendor"/>
+      <class name="com.vtigerv2.testcripts.CreateVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreOpportunity"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterForVendor"/>
+      <class name="com.vtigerv2.testcripts.CancelCreatingVendor"/>
+      <class name="com.vtigerv2.testcripts.RestorePriceBooks"/>
+      <class name="com.vtigerv2.testcripts.RestoreProject"/>
+      <class name="com.vtigerv2.testcripts.RestoreInvoice"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreContacts"/>
+      <class name="com.vtigerv2.testcripts.RestoreCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreQuotes"/>
+      <class name="com.vtigerv2.testcripts.CancelCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreProjectMilestones"/>
+      <class name="com.vtigerv2.testcripts.MassEditCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreProduct"/>
+      <class name="com.vtigerv2.testcripts.RestoreOrganization"/>
+      <class name="com.vtigerv2.testcripts.CreateFilter"/>
+      <class name="com.vtigerv2.testcripts.DeleteVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreSalesOrder"/>
+      <class name="com.vtigerv2.testcripts.DeleteCampaign"/>
+      <class name="com.vtigerv2.testcripts.EditCampaignWithOutData"/>
+      <class name="com.vtigerv2.testcripts.RestoreAssets"/>
+      <class name="com.vtigerv2.testcripts.LastViewedVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreLeads"/>
+=======
+      <class name="com.vtigerv2.testcripts.CreateQuote"/>
+      <class name="com.vtigerv2.testcripts.CancelOrg"/>
+      <class name="com.vtigerv2.testcripts.FindDuplicateProduct"/>
+      <class name="com.vtigerv2.testcripts.DeleteProduct"/>
+      <class name="com.vtigerv2.testcripts.QuoteExportToPdf"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateProduct"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterOrganization"/>
+      <class name="com.vtigerv2.testcripts.DeleteOrganization"/>
+      <class name="com.vtigerv2.testcripts.ExportOrganizations"/>
+      <class name="com.vtigerv2.testcripts.EditQuote"/>
+      <class name="com.vtigerv2.testcripts.CancelQuotes"/>
+      <class name="com.vtigerv2.testcripts.ExportProducts"/>
+      <class name="com.vtigerv2.testcripts.SearchOrganization"/>
+      <class name="com.vtigerv2.testcripts.MassEditProducts"/>
+      <class name="com.vtigerv2.testcripts.CancelProduct"/>
+      <class name="com.vtigerv2.testcripts.FindDuplicateOrg"/>
+      <class name="com.vtigerv2.testcripts.MassEditQuote"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateOrg"/>
+      <class name="com.vtigerv2.testcripts.WorldClock"/>
+      <class name="com.vtigerv2.testcripts.CreateOrganization"/>
+      <class name="com.vtigerv2.testcripts.DeleteQuote"/>
+      <class name="com.vtigerv2.testcripts.EditOrganization"/>
+      <class name="com.vtigerv2.testcripts.EditProduct"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterProducts"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteQuotes"/>
+      <class name="com.vtigerv2.testcripts.SearchQuotes"/>
+      <class name="com.vtigerv2.testcripts.OrgMailerExport"/>
+      <class name="com.vtigerv2.testcripts.SearchProduct"/>
+      <class name="com.vtigerv2.testcripts.Chat"/>
+      <class name="com.vtigerv2.testcripts.MassEditOrganization"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteOrg"/>
+      <class name="com.vtigerv2.testcripts.LastViewedOrg"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterQuotes"/>
+      <class name="com.vtigerv2.testcripts.CreateProdut"/>
+      <class name="com.vtigerv2.testcripts.MultipleDeleteProducts"/>
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
