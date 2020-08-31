@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
+=======
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     <classes>
+<<<<<<< HEAD
       <class name="com.vtigerv2.testcripts.RestoreProduct">
         <methods>
           <include name="login"/>
@@ -103,13 +109,17 @@
         </methods>
       </class> <!-- com.vtigerv2.testcripts.EditVendor -->
       <class name="com.vtigerv2.testcripts.CreateCampaign">
+=======
+      <class name="com.vtigerv2.testcripts.CreateQuote">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
         <methods>
           <include name="login"/>
-          <include name="testCreateCampaign"/>
           <include name="logout"/>
           <include name="openBrowser"/>
+          <include name="testCreateQuote"/>
           <include name="closeBrowser"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.vtigerv2.testcripts.CreateCampaign -->
       <class name="com.vtigerv2.testcripts.CancelDeleteCampaign">
         <methods>
@@ -327,6 +337,9 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.vtigerv2.testcripts.RestorePriceBooks -->
+=======
+      </class> <!-- com.vtigerv2.testcripts.CreateQuote -->
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

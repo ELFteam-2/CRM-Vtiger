@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="35" failed="1" ignored="70" total="106" passed="0">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
   <reporter-output>
     <line>
       <![CDATA[Opening Browser]]>
     </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[Organization page displayed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on export org button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on cancel button]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="150243" started-at="2020-08-31T02:58:43Z" finished-at="2020-08-31T03:01:13Z">
+=======
+  <suite name="Default suite" duration-ms="238742" started-at="2020-08-29T08:49:15Z" finished-at="2020-08-29T08:53:14Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Test" duration-ms="150243" started-at="2020-08-31T02:58:43Z" finished-at="2020-08-31T03:01:13Z">
       <class name="com.vtigerv2.testcripts.RestorePriceBooks">
         <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.RestorePriceBooks@402a079c]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T08:31:13Z" finished-at="2020-08-31T08:31:13Z">
@@ -1028,16 +1055,29 @@ Session ID: e66aa84e-ae4c-4c1a-9035-ea6943a1239f
       </class> <!-- com.vtigerv2.testcripts.SearchForVendor -->
       <class name="com.vtigerv2.testcripts.EditVendorWithoutData">
         <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.EditVendorWithoutData@f6c48ac]" name="openBrowser" is-config="true" duration-ms="47767" started-at="2020-08-31T08:28:43Z" finished-at="2020-08-31T08:29:31Z">
+=======
+    <test name="Default test" duration-ms="238742" started-at="2020-08-29T08:49:15Z" finished-at="2020-08-29T08:53:14Z">
+      <class name="com.vtigerv2.testcripts.ExportOrganizations">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="openBrowser" is-config="true" duration-ms="47555" started-at="2020-08-29T08:49:16Z" finished-at="2020-08-29T08:50:03Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <reporter-output>
             <line>
               <![CDATA[Opening Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.EditVendorWithoutData@f6c48ac]" name="login" is-config="true" duration-ms="44383" started-at="2020-08-31T08:29:31Z" finished-at="2020-08-31T08:30:15Z">
+=======
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="login" is-config="true" duration-ms="44517" started-at="2020-08-29T08:50:03Z" finished-at="2020-08-29T08:50:48Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
+<<<<<<< HEAD
         <test-method status="FAIL" signature="testEditVendorWithoutData()[pri:0, instance:com.vtigerv2.testcripts.EditVendorWithoutData@f6c48ac]" name="testEditVendorWithoutData" duration-ms="11051" started-at="2020-08-31T08:30:15Z" finished-at="2020-08-31T08:30:26Z">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
@@ -1145,17 +1185,45 @@ Session ID: e66aa84e-ae4c-4c1a-9035-ea6943a1239f
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.json.JsonException -->
+=======
+        <test-method status="PASS" signature="testExportOrganizations()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="testExportOrganizations" duration-ms="102442" started-at="2020-08-29T08:50:48Z" finished-at="2020-08-29T08:52:30Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <reporter-output>
+            <line>
+              <![CDATA[Organization page displayed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on export org button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on cancel button]]>
+            </line>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- testEditVendorWithoutData -->
         <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.EditVendorWithoutData@f6c48ac]" name="logout" is-config="true" duration-ms="14211" started-at="2020-08-31T08:30:28Z" finished-at="2020-08-31T08:30:42Z">
+=======
+        </test-method> <!-- testExportOrganizations -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="logout" is-config="true" duration-ms="9866" started-at="2020-08-29T08:52:30Z" finished-at="2020-08-29T08:52:40Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
+<<<<<<< HEAD
         <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.EditVendorWithoutData@f6c48ac]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-31T08:31:13Z" finished-at="2020-08-31T08:31:13Z">
+=======
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtigerv2.testcripts.ExportOrganizations@e25b2fe]" name="closeBrowser" is-config="true" duration-ms="34170" started-at="2020-08-29T08:52:40Z" finished-at="2020-08-29T08:53:14Z">
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
           <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+<<<<<<< HEAD
       </class> <!-- com.vtigerv2.testcripts.EditVendorWithoutData -->
       <class name="com.vtigerv2.testcripts.RestoreAssets">
         <test-method status="SKIP" signature="login()[pri:0, instance:com.vtigerv2.testcripts.RestoreAssets@56ac3a89]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T08:31:13Z" finished-at="2020-08-31T08:31:13Z">
@@ -2976,4 +3044,9 @@ Session ID: e66aa84e-ae4c-4c1a-9035-ea6943a1239f
       </class> <!-- com.vtigerv2.testcripts.RestoreSevices -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+=======
+      </class> <!-- com.vtigerv2.testcripts.ExportOrganizations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
 </testng-results>

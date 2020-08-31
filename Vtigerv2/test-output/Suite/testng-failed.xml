@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<<<<<<< HEAD
   <test name="Test(failed)">
     <classes>
       <class name="com.vtigerv2.testcripts.RestoreProduct">
@@ -327,6 +328,19 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.vtigerv2.testcripts.RestorePriceBooks -->
+=======
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtigerv2.testcripts.EditOrganization">
+        <methods>
+          <include name="login"/>
+          <include name="testEditOrganization"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.EditOrganization -->
+>>>>>>> branch 'master' of https://github.com/ELFteam-2/CRM-Vtiger.git
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
