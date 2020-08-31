@@ -64,11 +64,10 @@ public class BaseClass {
     
     @AfterMethod
     public void logout() throws InterruptedException {
-    	HomePage h=new HomePage(driver);
-    	WebElement accDropdown = h.getAccountsDropdown();
+    	HomePage h= new HomePage(driver);
     	Actions a=new Actions(driver);
-    	a.moveToElement(accDropdown).perform();
-    	h.getSignoutBtn().click();
+    	a.moveToElement(h.getAdminstratorimg()).perform();
+        h.getSignout().click();
     }
 
     

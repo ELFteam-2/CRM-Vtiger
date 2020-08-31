@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtigerv2.testcripts.SearchPurchaseOrderUsingVendorName">
+        <methods>
+          <include name="login"/>
+          <include name="testSearchPurchaseOrderUsingVendorName"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchPurchaseOrderUsingVendorName -->
+      <class name="com.vtigerv2.testcripts.SearchSalesUsingSubject">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="testSearchSalesUsingSubject"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchSalesUsingSubject -->
+      <class name="com.vtigerv2.testcripts.DeletePurchaseOrder">
+        <methods>
+          <include name="testDeletePurchaseOrder"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.DeletePurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.NextSales">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="testNextSales"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.NextSales -->
+      <class name="com.vtigerv2.testcripts.EditSales">
+        <methods>
+          <include name="login"/>
+          <include name="testEditSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.EditSales -->
+      <class name="com.vtigerv2.testcripts.MassEdit">
+        <methods>
+          <include name="login"/>
+          <include name="testMassEdit"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.MassEdit -->
+      <class name="com.vtigerv2.testcripts.CreatePurchaseUsingServices">
+        <methods>
+          <include name="testCreatePurchaseUsingServices"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreatePurchaseUsingServices -->
+      <class name="com.vtigerv2.testcripts.EditPurchaseOrder">
+        <methods>
+          <include name="login"/>
+          <include name="testEditPurchaseOrder"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.EditPurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.MassDeleteSales">
+        <methods>
+          <include name="login"/>
+          <include name="testMassDeleteSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.MassDeleteSales -->
+      <class name="com.vtigerv2.testcripts.JumpSales">
+        <methods>
+          <include name="login"/>
+          <include name="testJumpSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.JumpSales -->
+      <class name="com.vtigerv2.testcripts.SearchSalesOrder">
+        <methods>
+          <include name="login"/>
+          <include name="testSearchSalesOrder"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchSalesOrder -->
+      <class name="com.vtigerv2.testcripts.CreateDuplicate">
+        <methods>
+          <include name="login"/>
+          <include name="testCreateDuplicate"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreateDuplicate -->
+      <class name="com.vtigerv2.testcripts.CreateInvoiceUsingServices">
+        <methods>
+          <include name="login"/>
+          <include name="testCreateInvoiceUsingServices"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreateInvoiceUsingServices -->
+      <class name="com.vtigerv2.testcripts.CreateFilter">
+        <methods>
+          <include name="login"/>
+          <include name="testEditInvoice"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreateFilter -->
+      <class name="com.vtigerv2.testcripts.EditInvoice">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="testEditInvoice"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.EditInvoice -->
+      <class name="com.vtigerv2.testcripts.DeleteSales">
+        <methods>
+          <include name="login"/>
+          <include name="testDeleteSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.DeleteSales -->
+      <class name="com.vtigerv2.testcripts.PreviousSales">
+        <methods>
+          <include name="login"/>
+          <include name="testPreviousSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.PreviousSales -->
+      <class name="com.vtigerv2.testcripts.SearchInvoiceUsingSubject">
+        <methods>
+          <include name="login"/>
+          <include name="testSearchInvoice"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchInvoiceUsingSubject -->
+      <class name="com.vtigerv2.testcripts.MassEditSales">
+        <methods>
+          <include name="login"/>
+          <include name="testMassEditSales"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.MassEditSales -->
+      <class name="com.vtigerv2.testcripts.DeleteFilter">
+        <methods>
+          <include name="testDeleteFilter"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.DeleteFilter -->
+      <class name="com.vtigerv2.testcripts.ExportPurchaseOrder">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="testExportPurchaseOrder"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.ExportPurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.CreatePurchaseOrder">
+        <methods>
+          <include name="testCreatePurchaseOrder"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreatePurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.MassEditAndDeleteFilter">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="testMassEditAndDeleteFilter"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.MassEditAndDeleteFilter -->
+      <class name="com.vtigerv2.testcripts.SearchPurchaseOrder">
+        <methods>
+          <include name="testSearchPurchaseOrder"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchPurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.CreateInvoice">
+        <methods>
+          <include name="login"/>
+          <include name="testCreateInvoice"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.CreateInvoice -->
+      <class name="com.vtigerv2.testcripts.DeleteInvoice">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="testDeleteInvoice"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.DeleteInvoice -->
+      <class name="com.vtigerv2.testcripts.SearchInvoice">
+        <methods>
+          <include name="login"/>
+          <include name="testSearchInvoice"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchInvoice -->
+      <class name="com.vtigerv2.testcripts.MassDeletePurchaseOrder">
+        <methods>
+          <include name="testMassDeletePurchaseOrder"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.MassDeletePurchaseOrder -->
+      <class name="com.vtigerv2.testcripts.ExportSales">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="testExportSales"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.ExportSales -->
+      <class name="com.vtigerv2.testcripts.SearchDuplicateAndExport">
+        <methods>
+          <include name="login"/>
+          <include name="testSearchDuplicateAndExport"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.SearchDuplicateAndExport -->
+      <class name="com.vtigerv2.testcripts.AdvancedSearchSales">
+        <methods>
+          <include name="testAdvancedSearchSales"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.AdvancedSearchSales -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

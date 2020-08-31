@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtigerv2.testcripts.CreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.CreateInvoice"/>
+      <class name="com.vtigerv2.testcripts.CreateInvoiceUsingServices"/>
+      <class name="com.vtigerv2.testcripts.CreatePurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.CreateSalesUsingServices"/>
+      <class name="com.vtigerv2.testcripts.CreateSales"/>
+      <class name="com.vtigerv2.testcripts.ExportInvoice"/>
+      <class name="com.vtigerv2.testcripts.CreatePurchaseFilter"/>
+      <class name="com.vtigerv2.testcripts.DuplicatePurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.MassEditPurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.CreateInvoiceAndDelete"/>
+      <class name="com.vtigerv2.testcripts.CreateSalesFilter"/>
+      <class name="com.vtigerv2.testcripts.DuplicateSales"/>
+      <class name="com.vtigerv2.testcripts.MassDelete"/>
+      <class name="com.vtigerv2.testcripts.SearchDuplicateAndExport"/>
+      <class name="com.vtigerv2.testcripts.DeletePurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.MassEditAndDeleteFilter"/>
+      <class name="com.vtigerv2.testcripts.CreateDuplicate"/>
+      <class name="com.vtigerv2.testcripts.SearchPurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.ExportSales"/>
+      <class name="com.vtigerv2.testcripts.EditPurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.MassDeleteSales"/>
+      <class name="com.vtigerv2.testcripts.MassEdit"/>
+      <class name="com.vtigerv2.testcripts.SearchPurchaseOrderUsingVendorName"/>
+      <class name="com.vtigerv2.testcripts.PreviousSales"/>
+      <class name="com.vtigerv2.testcripts.ExportPurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.EditInvoice"/>
+      <class name="com.vtigerv2.testcripts.NextSales"/>
+      <class name="com.vtigerv2.testcripts.SearchInvoiceUsingSubject"/>
+      <class name="com.vtigerv2.testcripts.EditSales"/>
+      <class name="com.vtigerv2.testcripts.DeleteFilter"/>
+      <class name="com.vtigerv2.testcripts.DeleteSales"/>
+      <class name="com.vtigerv2.testcripts.SearchInvoice"/>
+      <class name="com.vtigerv2.testcripts.CreatePurchaseUsingServices"/>
+      <class name="com.vtigerv2.testcripts.CreateFilter"/>
+      <class name="com.vtigerv2.testcripts.AdvancedSearchSales"/>
+      <class name="com.vtigerv2.testcripts.JumpSales"/>
+      <class name="com.vtigerv2.testcripts.SearchSalesUsingSubject"/>
+      <class name="com.vtigerv2.testcripts.MassEditSales"/>
+      <class name="com.vtigerv2.testcripts.SearchSalesOrder"/>
+      <class name="com.vtigerv2.testcripts.DeleteInvoice"/>
+      <class name="com.vtigerv2.testcripts.MassDeletePurchaseOrder"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
