@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.vtigerv2.testcripts.Duplicatecontact">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Duplicatecontact -->
+      <class name="com.vtigerv2.testcripts.Createoppertunity">
+        <methods>
+          <include name="createOppurtunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Createoppertunity -->
+      <class name="com.vtigerv2.testcripts.Exportservice">
+        <methods>
+          <include name="exportServices"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Exportservice -->
+      <class name="com.vtigerv2.testcripts.EditLead">
+        <methods>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.EditLead -->
+      <class name="com.vtigerv2.testcripts.export">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.export -->
+      <class name="com.vtigerv2.testcripts.Cancelservicemassedit">
+        <methods>
+          <include name="massedit"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Cancelservicemassedit -->
+      <class name="com.vtigerv2.testcripts.Deletecontact">
+        <methods>
+          <include name="deleteContacttest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Deletecontact -->
+      <class name="com.vtigerv2.testcripts.moreinfoinvoice_cancel">
+        <methods>
+          <include name="invoiceCancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.moreinfoinvoice_cancel -->
+      <class name="com.vtigerv2.testcripts.DeleteLead">
+        <methods>
+          <include name="deleteLead"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.DeleteLead -->
+      <class name="com.vtigerv2.testcripts.Cancelcreatelead">
+        <methods>
+          <include name="cancelCreatelead"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Cancelcreatelead -->
+      <class name="com.vtigerv2.testcripts.Createcontact">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Createcontact -->
+      <class name="com.vtigerv2.testcripts.Editservices">
+        <methods>
+          <include name="ediotServices"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Editservices -->
+      <class name="com.vtigerv2.testcripts.Editoppertunity">
+        <methods>
+          <include name="editOppertunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Editoppertunity -->
+      <class name="com.vtigerv2.testcripts.Deleteopurtunity">
+        <methods>
+          <include name="deleteOpurtunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Deleteopurtunity -->
+      <class name="com.vtigerv2.testcripts.Searchoppertunity">
+        <methods>
+          <include name="searchOpertunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Searchoppertunity -->
+      <class name="com.vtigerv2.testcripts.Importcontact">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Importcontact -->
+      <class name="com.vtigerv2.testcripts.Createmultiservices">
+        <methods>
+          <include name="createMultiservices"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Createmultiservices -->
+      <class name="com.vtigerv2.testcripts.Createlead">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Createlead -->
+      <class name="com.vtigerv2.testcripts.Leadmassedit">
+        <methods>
+          <include name="leadMassedit"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Leadmassedit -->
+      <class name="com.vtigerv2.testcripts.importnextcancel">
+        <methods>
+          <include name="importnextCancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.importnextcancel -->
+      <class name="com.vtigerv2.testcripts.importoppertunity">
+        <methods>
+          <include name="importOpertunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.importoppertunity -->
+      <class name="com.vtigerv2.testcripts.Exportcancel">
+        <methods>
+          <include name="exportCancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Exportcancel -->
+      <class name="com.vtigerv2.testcripts.Servicemassedit">
+        <methods>
+          <include name="serviceMassedit"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Servicemassedit -->
+      <class name="com.vtigerv2.testcripts.Createsrvice">
+        <methods>
+          <include name="craeteService"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Createsrvice -->
+      <class name="com.vtigerv2.testcripts.Importservices">
+        <methods>
+          <include name="importServices"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Importservices -->
+      <class name="com.vtigerv2.testcripts.Moreinformation">
+        <methods>
+          <include name="moreInformation"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Moreinformation -->
+      <class name="com.vtigerv2.testcripts.Moreinfoleads">
+        <methods>
+          <include name="leads"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Moreinfoleads -->
+      <class name="com.vtigerv2.testcripts.Exportservicecancel">
+        <methods>
+          <include name="exportService"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Exportservicecancel -->
+      <class name="com.vtigerv2.testcripts.Exportopertunity">
+        <methods>
+          <include name="exportOppertunity"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Exportopertunity -->
+      <class name="com.vtigerv2.testcripts.moreinfoleads_cancel">
+        <methods>
+          <include name="cancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.moreinfoleads_cancel -->
+      <class name="com.vtigerv2.testcripts.Importlead">
+        <methods>
+          <include name="importLead"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Importlead -->
+      <class name="com.vtigerv2.testcripts.Importservicecancel">
+        <methods>
+          <include name="importCancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Importservicecancel -->
+      <class name="com.vtigerv2.testcripts.importcancel">
+        <methods>
+          <include name="importCancel"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.importcancel -->
+      <class name="com.vtigerv2.testcripts.Editcontact">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.Editcontact -->
+      <class name="com.vtigerv2.testcripts.moreinfoinvoice">
+        <methods>
+          <include name="invoice"/>
+        </methods>
+      </class> <!-- com.vtigerv2.testcripts.moreinfoinvoice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
