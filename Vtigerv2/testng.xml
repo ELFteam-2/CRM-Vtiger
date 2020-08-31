@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
+      <class name="com.vtigerv2.testcripts.EditVendorWithoutData"/>
+      <class name="com.vtigerv2.testcripts.SearchForVendor"/>
       <class name="com.vtigerv2.testcripts.CreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.LastViewedCampaign"/>
+      <class name="com.vtigerv2.testcripts.CancelDeleteCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreSevices"/>
+      <class name="com.vtigerv2.testcripts.RestorePurchaseOrder"/>
+      <class name="com.vtigerv2.testcripts.RestoreVendor"/>
+      <class name="com.vtigerv2.testcripts.EditVendor"/>
+      <class name="com.vtigerv2.testcripts.CancelDeletingVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreProjectTasks"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateVendor"/>
+      <class name="com.vtigerv2.testcripts.CreateVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreOpportunity"/>
+      <class name="com.vtigerv2.testcripts.CreateFilterForVendor"/>
+      <class name="com.vtigerv2.testcripts.CancelCreatingVendor"/>
+      <class name="com.vtigerv2.testcripts.RestorePriceBooks"/>
+      <class name="com.vtigerv2.testcripts.RestoreProject"/>
+      <class name="com.vtigerv2.testcripts.RestoreInvoice"/>
+      <class name="com.vtigerv2.testcripts.QuickCreateCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreContacts"/>
+      <class name="com.vtigerv2.testcripts.RestoreCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreQuotes"/>
+      <class name="com.vtigerv2.testcripts.CancelCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreProjectMilestones"/>
+      <class name="com.vtigerv2.testcripts.MassEditCampaign"/>
+      <class name="com.vtigerv2.testcripts.RestoreProduct"/>
+      <class name="com.vtigerv2.testcripts.RestoreOrganization"/>
+      <class name="com.vtigerv2.testcripts.CreateFilter"/>
+      <class name="com.vtigerv2.testcripts.DeleteVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreSalesOrder"/>
+      <class name="com.vtigerv2.testcripts.DeleteCampaign"/>
+      <class name="com.vtigerv2.testcripts.EditCampaignWithOutData"/>
+      <class name="com.vtigerv2.testcripts.RestoreAssets"/>
+      <class name="com.vtigerv2.testcripts.LastViewedVendor"/>
+      <class name="com.vtigerv2.testcripts.RestoreLeads"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

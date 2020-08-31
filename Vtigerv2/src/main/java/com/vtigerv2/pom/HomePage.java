@@ -13,9 +13,107 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Sign Out']")
 	private WebElement SignoutBtn;
 	
+	@FindBy(xpath="(//td/a[@href='javascript:;'])[1]")
+	private WebElement moredropdownlink;
+	
+	@FindBy(xpath="//a[@name='Campaigns']")
+	private WebElement CampaignsLink;
+	
+	@FindBy(xpath="//a[@name='Vendors']")
+	private WebElement VendorsLink;
+	
+	@FindBy(xpath="//a[.='Recycle Bin']")
+	private WebElement RecycleBinLink;
+	
+	@FindBy(xpath="//input[@value='  Save']")
+	private WebElement savetbtn;
+	
+	@FindBy(xpath="//input[@name='vendorname']")
+	private WebElement vendortbx;
+	
+	@FindBy(xpath="//select[@id='qccombo']")
+	private WebElement quickdropdown;
+	
+	@FindBy(xpath="//input[@name='campaignname']")
+	private WebElement Campaigntbx;
+	
+	@FindBy(xpath="//input[@name='accountname']")
+	private WebElement Organizationtbx;
+	
+	@FindBy(xpath="(//input[@value='  Save  '])[1]")
+	private WebElement savetbn2;
+	
+	@FindBy(xpath="//textarea[@name='ticket_title']")
+	private WebElement tickettbx;
+	
+	@FindBy(xpath="(//input[@name='productname'])[1]")
+	private WebElement producttbx;
+	
+	@FindBy(xpath="(//input[@name='notes_title'])[1]")
+	private WebElement doctitletbx;
+	
+	@FindBy(xpath="//input[@name='bookname']")
+	private WebElement pricebooktbx;
+	
+
+	public WebElement getOrganizationtbx() {
+		return Organizationtbx;
+	}
+
+
+	public WebElement getSavetbn2() {
+		return savetbn2;
+	}
+
+
+	public WebElement getTickettbx() {
+		return tickettbx;
+	}
+
+
+	public WebElement getProducttbx() {
+		return producttbx;
+	}
+
+
+	public WebElement getDoctitletbx() {
+		return doctitletbx;
+	}
+
+
+	public WebElement getPricebooktbx() {
+		return pricebooktbx;
+	}
+
+
+	public WebElement getCampaigntbx() {
+		return Campaigntbx;
+	}
+
+
+	public WebElement getSavetbtn() {
+		return savetbtn;
+	}
+
+
+	public WebElement getVendortbx() {
+		return vendortbx;
+	}
+
+
+	public WebElement getQuickdropdown() {
+		return quickdropdown;
+	}
+
+
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		
+	}
+
+
+	public WebElement getMoredropdownlink() {
+		return moredropdownlink;
 	}
 
 
@@ -26,5 +124,20 @@ public class HomePage {
 	public WebElement getSignoutBtn() {
 		return SignoutBtn;
 	}
+	
+	public WebElement getVendorsLink() {
+		return VendorsLink;
+	}
+
+
+	public WebElement getRecycleBinLink() {
+		return RecycleBinLink;
+	}
+
+
+	public WebElement getCampaignsLink() {
+		return CampaignsLink;
+	}
+
 
 }
